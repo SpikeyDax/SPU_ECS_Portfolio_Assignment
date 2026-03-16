@@ -1,27 +1,57 @@
 {
 "About": {
-  "Name": "Dat Thai",
+  "Name": "YOUR NAME HERE",
   "Currently": "Electrical Engineering Student",
   "Headshot": "student-portrait.png",
   "Thumbnail": "student-logo.webp",
-  "AboutText": "Hi, I am Dat Thai. I am a passionate electrical engineering student with a keen interest in circuit. Currently, I am pursuing my undergraduate degree at Seattle Pacific University. I am dedicated to expanding my knowledge and skills in various areas of electrical engineering.<br><br>I enjoy tackling challenging programming projects and I thrive in collaborative environments where I can contribute my expertise and learn from my peers.<br><br>B"
+  "AboutText": "Hi, I am Dat Thai. I am a passionate electrical engineering student with a keen interest in circuits. Currently, I am pursuing my undergraduate degree at Seattle Pacific University. I am dedicated to expanding my knowledge and skills in various areas of electrical engineering.<br><br>I enjoy tackling challenging projects and thrive in collaborative environments where I can contribute my expertise and learn from my peers."
 },
 "Contact": {
   "EMail": "thaid@spu.edu",
   "Phone": "(206) 432-5832",
-  "Portfolio": "https://www.github.com",
-  "LinkedIn": "https://linkedin.com/Dax Thai",
-  "GitHub": "https://www.github.com/SpikeyDax"
+  "Portfolio": "https://github.com/SpikeyDax",
+  "LinkedIn": "https://linkedin.com",
+  "GitHub": "https://github.com/SpikeyDax"
 },
 "Experience": {
+  "ExperienceText": "Electrical Engineering student at Seattle Pacific University with hands-on experience in circuit design and debugging.",
   "School": "Seattle Pacific University",
   "Major": "Electrical Engineering",
-
+  "Graduation": "2026",
+  "EducationText": "Pursuing a Bachelor of Science in Electrical Engineering at Seattle Pacific University.",
+  "Employment": "",
+  "Role": "",
+  "EmploymentText": "",
+  "Skills": ["Circuit Design", "LTSpice", "Breadboarding", "Oscilloscope", "C++"],
+  "SkillsText": "Skilled in analog circuit design, debugging, and test equipment.",
+  "Resume": "student-resume.pdf"
+},
 "Project1": {
-    "Title": "Peak Detector Circuit",
-    "Desc": "Designed and built a peak detector circuit using op-amps, a diode, and a capacitor to detect the peak voltage of an input signal.<br><br>The circuit uses an LM339 comparator to compare the peak detector output against a reference voltage, triggering an LED indicator when the signal exceeds the threshold. Tested and debugged at frequencies ranging from 10kHz to 25kHz.",
-    "GitHubRepo": "",
-    "MainImage": "P1Main.png",
-    "DetailImages": ["P1Detail1.png", "P1Detail2.png", "P1Detail3.png"]
-  }
+  "Title": "Peak Detector Circuit",
+  "Desc": "Designed and built a peak detector circuit using op-amps, a diode, and a capacitor to detect the peak voltage of an input signal.<br><br>The circuit uses an LM339 comparator to compare the peak detector output against a reference voltage, triggering an LED indicator when the signal exceeds the threshold. Tested and debugged at frequencies ranging from 10kHz to 25kHz.",
+  "GitHubRepo": "",
+  "MainImage": "P1Main.png",
+  "DetailImages": ["P1Detail1.png", "P1Detail2.png", "P1Detail3.png"]
+},
+"Project2": {
+  "Title": "",
+  "Desc": "",
+  "GitHubRepo": "",
+  "MainImage": "P2Main.png",
+  "DetailImages": []
+},
+"Project3": {
+  "Title": "",
+  "Desc": "",
+  "GitHubRepo": "",
+  "MainImage": "P3Main.png",
+  "DetailImages": []
+},
+"Project4": {
+  "Title": "",
+  "Desc": "",
+  "GitHubRepo": "",
+  "MainImage": "",
+  "DetailImages": []
+}
 }
