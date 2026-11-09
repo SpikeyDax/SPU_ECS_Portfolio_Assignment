@@ -28,8 +28,12 @@ function updateHTML(configData) {
   document.querySelector("#pfRole").innerHTML = configData.Experience.Role;
   document.querySelector("#pfEmploymentText").innerHTML = configData.Experience.EmploymentText;
 
+  document.querySelector("#expAlt>h2").innerHTML = configData.Experience.AlternativeTitle;
+  document.querySelector("#pfAltName").innerHTML = "<strong>".concat(configData.Experience.AlternativeName, "</strong>");
+  document.querySelector("#pfAltText").innerHTML = configData.Experience.AlternativeText;
+
   document.querySelector("#expSkills>h2").innerHTML = "Skills";
-  document.querySelector("#pfSkills").innerHTML = configData.Experience.Skills.toString();
+  document.querySelector("#pfSkills").innerHTML = configData.Experience.Skills.join(", ");
   document.querySelector("#pfSkillsText").innerHTML = configData.Experience.SkillsText;
 
   // document.querySelector("#pfResume").href = "./Content/".concat(configData.Experience.Resume);

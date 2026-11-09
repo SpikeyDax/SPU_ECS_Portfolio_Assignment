@@ -1,10 +1,11 @@
 {
   "About": {
     "Name": "Dat Thai",
-    "Currently": "Electrical Engineering Student · Power & Energy Systems",
+    "Currently": "Electrical Engineering Student · Power &amp; Energy Systems<br>Seattle Pacific University · Expected Graduation June 2027",
     "Headshot": "student-portrait.png",
     "Thumbnail": "student-logo.webp",
-    "AboutText": "Hi, I'm Dat Thai, a junior Electrical Engineering student at Seattle Pacific University on the power and energy systems track. I like working on the part of a system everything else depends on: the power. That means batteries, regulators, protection circuits, and the boards that carry them.<br><br>Before engineering, I kept buildings running as a building manager and AV technician at UW Bothell, and I now work in facilities at SPU. I also tutored math at Cascadia College. Outside the lab I play soccer and train Brazilian jiu-jitsu."
+    "AboutText": "Hi, I'm Dat Thai, a junior Electrical Engineering student at Seattle Pacific University on the power and energy systems track, expecting to graduate in June 2027. I like working on the part of a system everything else depends on: the power. That means batteries, regulators, protection circuits, and the boards that carry them.<br><br>Before engineering, I kept buildings running as a building manager and AV technician at UW Bothell, and I now work in facilities at SPU. I also tutored math at Cascadia College. Outside the lab I play soccer and train Brazilian jiu-jitsu.",
+    "HeadshotCredit": ""
   },
   "Contact": {
     "EMail": "thaid@spu.edu",
@@ -22,6 +23,9 @@
     "Employment": "Seattle Pacific University — Facilities",
     "Role": "Student Worker",
     "EmploymentText": "Previously Building Manager and AV Technician at the University of Washington Bothell, and Mathematics Tutor at Cascadia College.",
+    "AlternativeTitle": "Internship Alternative: Professional Certification",
+    "AlternativeName": "MathWorks Certified MATLAB Associate",
+    "AlternativeText": "In place of an internship, I earned the MathWorks Certified MATLAB Associate credential, a proctored exam from MathWorks that tests core MATLAB skills: working with arrays and matrices, importing and visualizing data, writing scripts and functions, and using logical indexing and control flow. Preparing for it sharpened the MATLAB skills I use for circuit analysis and lab data processing in my Electrical Engineering coursework.",
     "Skills": [
       "Altium Designer",
       "PCB Layout & DFM",
@@ -38,34 +42,42 @@
   },
   "Project1": {
     "Title": "Peak Detector Circuit",
-    "Desc": "Designed and built a peak detector circuit using op-amps, a diode, and a capacitor to detect the peak voltage of an input signal.<br><br>The circuit uses an LM339 comparator to compare the peak detector output against a reference voltage, triggering an LED indicator when the signal exceeds the threshold. Tested and debugged at frequencies ranging from 10kHz to 25kHz.",
+    "Desc": "<strong>Individual project.</strong> Designed and built a peak detector circuit using op-amps, a diode, and a capacitor to detect the peak voltage of an input signal.<br><br>The circuit uses an LM339 comparator to compare the peak detector output against a reference voltage, triggering an LED indicator when the signal exceeds the threshold. Tested and debugged at frequencies ranging from 10kHz to 25kHz.",
     "GitHubRepo": "",
     "MainImage": "P1Main.png",
     "DetailImages": [
       "P1Detail1.png",
       "P1Detail2.png",
       "P1Detail3.png"
-    ]
+    ],
+    "ImageCredit": "Photo by Dat Thai",
+    "ImageAlt": "Breadboarded peak detector circuit with op-amps and an LM339 comparator"
   },
   "Project2": {
     "Title": "Wall-E Warehouse Robot — Power Management Subsystem",
-    "Desc": "Team project (Junior Design). I led the power management subsystem for an autonomous warehouse robot: the LiPo battery, charger, voltage sensor, fuse, motor power switch, and relay circuit.<br><br>I built an energy load table across every subsystem to size the battery and fuse, captured the full power schematic in Altium Designer, and presented the subsystem in the faculty design review.",
+    "Desc": "<strong>Team project (Junior Design). My role: power management subsystem lead.</strong> I led the power management subsystem for an autonomous warehouse robot: the LiPo battery, charger, voltage sensor, fuse, motor power switch, and relay circuit.<br><br>I built an energy load table across every subsystem to size the battery and fuse, captured the full power schematic in Altium Designer, and presented the subsystem in the faculty design review.",
     "GitHubRepo": "",
     "MainImage": "Image 4.jpg",
-    "DetailImages": []
+    "DetailImages": [],
+    "ImageCredit": "Photo by Dat Thai",
+    "ImageAlt": "Wall-E robot power wiring with relay module and breadboard"
   },
   "Project3": {
     "Title": "Dual Adjustable Power Supply PCB",
-    "Desc": "Designed a two-channel adjustable power supply on a 100 × 100 mm board, from schematic capture through PCB layout in Altium Designer.<br><br>In PCB Design II, I revised the layout to resolve design-for-manufacturing issues flagged by a PCB fab house.",
+    "Desc": "<strong>Individual project.</strong> Designed a two-channel adjustable power supply on a 100 × 100 mm board, from schematic capture through PCB layout in Altium Designer.<br><br>In PCB Design II, I revised the layout to resolve design-for-manufacturing issues flagged by a PCB fab house.",
     "GitHubRepo": "",
     "MainImage": "Image.png",
-    "DetailImages": []
+    "DetailImages": [],
+    "ImageCredit": "Photo by Dat Thai",
+    "ImageAlt": "Dual adjustable power supply PCB under test with a multimeter"
   },
   "Project4": {
     "Title": "Raspberry Pi Pico Embedded Projects",
-    "Desc": "A series of eight MicroPython projects on the Raspberry Pi Pico, simulated in Wokwi and run on hardware.<br><br>Covers GPIO interrupts, PWM servo control, shift registers driven from interrupt service routines, SPI LCD output, and file I/O on the Pico's flash.",
+    "Desc": "<strong>Individual project.</strong> A series of eight MicroPython projects on the Raspberry Pi Pico, simulated in Wokwi and run on hardware.<br><br>Covers GPIO interrupts, PWM servo control, shift registers driven from interrupt service routines, SPI LCD output, and file I/O on the Pico's flash.",
     "GitHubRepo": "",
     "MainImage": "Image 5.jpg",
-    "DetailImages": []
+    "DetailImages": [],
+    "ImageCredit": "Photo by Dat Thai",
+    "ImageAlt": "Raspberry Pi Pico on an expansion board for the MicroPython projects"
   }
 }
