@@ -320,3 +320,7 @@ project-detail a {
     text-decoration: none;
     cursor: pointer;
 }
+/* Hide the "See More..." buttons on the Projects page */
+button[id^="openProject"] {
+    display: none !important;
+}
