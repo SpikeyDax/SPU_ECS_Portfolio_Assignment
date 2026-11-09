@@ -51,21 +51,21 @@
     "Title": "Wall-E Warehouse Robot — Power Management Subsystem",
     "Desc": "Team project (Junior Design). I led the power management subsystem for an autonomous warehouse robot: the LiPo battery, charger, voltage sensor, fuse, motor power switch, and relay circuit.<br><br>I built an energy load table across every subsystem to size the battery and fuse, captured the full power schematic in Altium Designer, and presented the subsystem in the faculty design review.",
     "GitHubRepo": "",
-    "MainImage": "P2Main.png",
+    "MainImage": "Image 4.jpg",
     "DetailImages": []
   },
   "Project3": {
     "Title": "Dual Adjustable Power Supply PCB",
     "Desc": "Designed a two-channel adjustable power supply on a 100 × 100 mm board, from schematic capture through PCB layout in Altium Designer.<br><br>In PCB Design II, I revised the layout to resolve design-for-manufacturing issues flagged by a PCB fab house.",
     "GitHubRepo": "",
-    "MainImage": "P3Main.png",
+    "MainImage": "Image.png",
     "DetailImages": []
   },
   "Project4": {
     "Title": "Raspberry Pi Pico Embedded Projects",
     "Desc": "A series of eight MicroPython projects on the Raspberry Pi Pico, simulated in Wokwi and run on hardware.<br><br>Covers GPIO interrupts, PWM servo control, shift registers driven from interrupt service routines, SPI LCD output, and file I/O on the Pico's flash.",
     "GitHubRepo": "",
-    "MainImage": "P4Main.png",
+    "MainImage": "Image 5.jpg",
     "DetailImages": []
   }
 }
