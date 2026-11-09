@@ -10,15 +10,15 @@
     "EMail": "thaid@spu.edu",
     "Phone": "(206) 432-5832",
     "Portfolio": "https://github.com/SpikeyDax",
-    "LinkedIn": "https://linkedin.com",
+    "LinkedIn": "https://www.linkedin.com/in/dat-thai-29b829250/",
     "GitHub": "https://github.com/SpikeyDax"
   },
   "Experience": {
     "ExperienceText": "Electrical Engineering student with hands-on experience in power subsystem design, PCB layout in Altium, embedded MicroPython, and analog circuit debugging.",
     "School": "Seattle Pacific University",
     "Major": "Electrical Engineering",
-    "Graduation": "2026",
-    "EducationText": "B.S. in Electrical Engineering, power and energy systems track. Relevant coursework: Electronics I, PCB Design, Microcontroller System Design, Circuits (active filters, Bode analysis), Computer Architecture (MIPS), Electromagnetism, and Junior and Senior Design.",
+    "Graduation": "Expected June 2027",
+    "EducationText": "B.S. in Electrical Engineering, power and energy systems track. Transferred from Cascadia College (A.S. in Computer Engineering) with the SPU Transfer Merit Scholarship. Relevant coursework: Electronics I, PCB Design, Microcontroller System Design, Circuits (active filters, Bode analysis), Computer Architecture (MIPS), Electromagnetism, and Junior and Senior Design.",
     "Employment": "Seattle Pacific University — Facilities",
     "Role": "Student Worker",
     "EmploymentText": "Previously Building Manager and AV Technician at the University of Washington Bothell, and Mathematics Tutor at Cascadia College.",
@@ -34,7 +34,7 @@
       "Power Budgeting"
     ],
     "SkillsText": "Comfortable taking a circuit from simulation to schematic, layout, and bench testing.",
-    "Resume": "student-resume.pdf"
+    "Resume": "Dat-Thai-Resume.pdf"
   },
   "Project1": {
     "Title": "Peak Detector Circuit",
