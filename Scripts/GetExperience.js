@@ -31,6 +31,9 @@ function updateHTML(configData) {
   document.querySelector("#expAlt>h2").innerHTML = configData.Experience.AlternativeTitle;
   document.querySelector("#pfAltName").innerHTML = "<strong>".concat(configData.Experience.AlternativeName, "</strong>");
   document.querySelector("#pfAltText").innerHTML = configData.Experience.AlternativeText;
+  document.querySelector("#pfAltIssuer").innerHTML = configData.Experience.AlternativeIssuer || "";
+  document.querySelector("#pfAltSkills").innerHTML = (configData.Experience.AlternativeSkills || [])
+    .map(skill => "<li>".concat(skill, "</li>")).join("");
 
   document.querySelector("#expSkills>h2").innerHTML = "Skills";
   document.querySelector("#pfSkills").innerHTML = configData.Experience.Skills.join(", ");

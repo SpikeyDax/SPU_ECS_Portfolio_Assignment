@@ -25,7 +25,7 @@
     "EmploymentText": "Previously Building Manager and AV Technician at the University of Washington Bothell, and Mathematics Tutor at Cascadia College.",
     "AlternativeTitle": "Internship Alternative: Professional Certification",
     "AlternativeName": "MathWorks Certified MATLAB Associate",
-    "AlternativeText": "In place of an internship, I earned the MathWorks Certified MATLAB Associate credential, a proctored exam from MathWorks that tests core MATLAB skills: working with arrays and matrices, importing and visualizing data, writing scripts and functions, and using logical indexing and control flow. Preparing for it sharpened the MATLAB skills I use for circuit analysis and lab data processing in my Electrical Engineering coursework.",
+    "AlternativeText": "Earned in place of an internship. This proctored MathWorks exam tests core MATLAB skills, which I now use for circuit analysis and lab data processing in my Electrical Engineering coursework.",
     "Skills": [
       "Altium Designer",
       "PCB Layout & DFM",
@@ -38,7 +38,15 @@
       "Power Budgeting"
     ],
     "SkillsText": "Comfortable taking a circuit from simulation to schematic, layout, and bench testing.",
-    "Resume": "Dat-Thai-Resume.pdf"
+    "Resume": "Dat-Thai-Resume.pdf",
+    "AlternativeIssuer": "Issued by MathWorks · Earned November 2026",
+    "AlternativeSkills": [
+      "Arrays &amp; Matrices",
+      "Data Import &amp; Visualization",
+      "Scripts &amp; Functions",
+      "Logical Indexing",
+      "Control Flow"
+    ]
   },
   "Project1": {
     "Title": "Peak Detector Circuit",
