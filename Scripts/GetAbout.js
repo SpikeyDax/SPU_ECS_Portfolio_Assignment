@@ -23,7 +23,7 @@ function updateHTML(configData) {
   document.querySelector("#pfEmail").innerHTML = configData.Contact.EMail;
   const liText = document.querySelector("#pfLinkedInText");
   liText.href = configData.Contact.LinkedIn;
-  liText.innerHTML = "LinkedIn: ".concat(configData.Contact.LinkedIn.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""));
+  liText.innerHTML = "LinkedIn";
   if (configData.Contact.Phone) {
     document.querySelector("#pfPhone").href = "tel:".concat(configData.Contact.Phone);
     document.querySelector("#pfPhone").innerHTML = configData.Contact.Phone;

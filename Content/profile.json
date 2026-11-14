@@ -1,15 +1,15 @@
 {
   "About": {
     "Name": "Dat Thai",
-    "Currently": "Electrical Engineering Student · Power &amp; Energy Systems<br>Seattle Pacific University · Expected Graduation June 2027",
+    "Currently": "Electrical Engineering Student<br>Seattle Pacific University",
     "Headshot": "student-portrait.png",
-    "Thumbnail": "student-logo.webp",
-    "AboutText": "Hi, I'm Dat Thai, a junior Electrical Engineering student at Seattle Pacific University on the power and energy systems track, expecting to graduate in June 2027. I like working on the part of a system everything else depends on: the power. That means batteries, regulators, protection circuits, and the boards that carry them.<br><br>Before engineering, I kept buildings running as a building manager and AV technician at UW Bothell, and I now work in facilities at SPU. I also tutored math at Cascadia College. Outside the lab I play soccer and train Brazilian jiu-jitsu.",
+    "Thumbnail": "logo.svg",
+    "AboutText": "I'm a senior Electrical Engineering student at Seattle Pacific University, focusing on power and energy systems. I enjoy designing, building, and testing circuits, from power regulation and protection to PCB layout.",
     "HeadshotCredit": ""
   },
   "Contact": {
     "EMail": "thaid@spu.edu",
-    "Phone": "(206) 432-5832",
+    "Phone": "",
     "Portfolio": "https://spikeydax.github.io/SPU_ECS_Portfolio_Assignment/",
     "LinkedIn": "https://www.linkedin.com/in/dat-thai-29b829250/",
     "GitHub": "https://github.com/SpikeyDax"

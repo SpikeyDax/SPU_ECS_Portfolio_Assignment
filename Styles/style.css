@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     width: 15%;
     /* background-color: #333; */
-    background: linear-gradient(#333, #808080);
+    background: linear-gradient(#6B1028, #3D0814);
     text-align: left;
     padding-top: 10px;
     position: fixed;
@@ -59,7 +59,7 @@ body {
 }
 
 .menu-list li:hover {
-    background-color: #555;
+    background-color: rgba(255, 255, 255, 0.15);
     transition: color 0.3s ease, background-color 0.3s ease;
     cursor: pointer;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 .page-title {
-    color: black;
+    color: #7A1F35;
     font-size: x-large;
     font-weight: bold;
     text-align: center;
@@ -104,8 +104,9 @@ body {
     height: auto;
     margin: 2rem;
     padding: 1rem;
-    background-color: #f2f2f2;
+    background-color: #F8EEF0;
     border-radius: .5rem;
+    border-left: 4px solid #7A1F35;
     display: flex;
     flex-direction: row;
 }
@@ -140,7 +141,7 @@ body {
 }
 
 .project-detail h2 {
-    color: #333;
+    color: #7A1F35;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
@@ -172,7 +173,7 @@ project-detail a {
 }
 
 .about-section h2 {
-    color: #333;
+    color: #7A1F35;
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -185,7 +186,7 @@ project-detail a {
     width: 15%;
     height: auto;
     border-radius: 50%;
-    border: 5px solid black;
+    border: 5px solid #7A1F35;
     background-position: center;
     background-size: cover;
     margin: 10px 20px;
@@ -199,7 +200,7 @@ project-detail a {
 }
 
 #pfAboutName {
-    color: #333;
+    color: #7A1F35;
     font-size: 5rem;
     font-weight: bold;
     margin-top: 20px;
@@ -221,8 +222,9 @@ project-detail a {
 .experience-section {
     margin: 2rem;
     padding: 1rem;
-    background-color: #f2f2f2;
+    background-color: #F8EEF0;
     border-radius: 5px;
+    border-left: 4px solid #7A1F35;
     /* height: 25%; */
 }
 
@@ -241,7 +243,7 @@ project-detail a {
 }
 
 .experience-section h2 {
-    color: black;
+    color: #7A1F35;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
@@ -287,7 +289,7 @@ project-detail a {
     top: 50%;
     width: auto;
     padding: 1.6rem;
-    color: red;
+    color: #7A1F35;
     font-weight: bold;
     font-size: 4rem;
     transition: 0.6s ease;
@@ -312,7 +314,7 @@ project-detail a {
 #XOut {
     margin-top: .25rem;
     padding: 0;
-    color: red;
+    color: #7A1F35;
     text-align: right;
     font-size: 2.5rem;
     font-weight: bold;
@@ -348,4 +350,28 @@ button[id^="openProject"] {
     .project {
         flex-direction: column;
     }
+}
+
+/* Burgundy theme: links and buttons */
+.main-section a {
+    color: #7A1F35;
+}
+.main-section a:hover {
+    color: #A3324E;
+}
+#pfResume {
+    background-color: #7A1F35;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#pfResume:hover {
+    background-color: #A3324E;
+}
+#prev:hover, #next:hover {
+    background-color: #F8EEF0;
+}
+#experience-info, #expResume {
+    border-left: none;
 }
