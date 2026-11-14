@@ -60,25 +60,17 @@
             <p id="pfRole"></p>
             <p id="pfEmploymentText"></p>
         </div>
-        <div id="expAlt" class="experience-section cert-card">
-            <h2></h2>
-            <div class="cert-body">
-                <img class="cert-badge" src="./Content/cert-badge.svg" alt="Certification badge">
-                <div class="cert-info">
-                    <p id="pfAltName"></p>
-                    <div class="cert-meta">
-                        <span class="cert-pill">&#10003; Certified</span>
-                        <span id="pfAltIssuer"></span>
-                    </div>
-                    <p id="pfAltText"></p>
-                    <ul id="pfAltSkills" class="chip-list"></ul>
-                </div>
-            </div>
-        </div>
         <div id="expSkills" class="experience-section">
             <h2></h2>
-            <p id="pfSkills"></p>
+            <ul id="pfSkills" class="chip-list"></ul>
             <p id="pfSkillsText"></p>
+            <div class="cert-row">
+                <img class="cert-badge" src="./Content/cert-badge.svg" alt="Certification badge">
+                <div>
+                    <p id="pfAltName"></p>
+                    <p id="pfAltIssuer"></p>
+                </div>
+            </div>
         </div>
     </div>
     <script type="module" src="./Scripts/GetExperience.js"></script>

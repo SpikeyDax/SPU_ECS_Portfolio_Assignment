@@ -376,57 +376,6 @@ button[id^="openProject"] {
     border-left: none;
 }
 
-/* Certification card */
-.cert-card {
-    background: linear-gradient(135deg, #FFFFFF 0%, #F8EEF0 100%);
-    border: 1px solid #E9D2D8;
-    border-left: 6px solid #7A1F35;
-    box-shadow: 0 6px 18px rgba(122, 31, 53, 0.12);
-    padding: 2rem 2.4rem;
-}
-.cert-card h2 {
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
-    color: #A3324E;
-}
-.cert-body {
-    display: flex;
-    align-items: center;
-    gap: 2.4rem;
-}
-.cert-badge {
-    width: 9rem;
-    flex-shrink: 0;
-    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.15));
-}
-.cert-info {
-    flex: 1;
-}
-.experience-section .cert-info p {
-    margin: 0 0 1rem 0;
-}
-#pfAltName {
-    font-size: 2.2rem;
-    color: #3D0814;
-}
-.cert-meta {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1.2rem;
-    font-size: 1.4rem;
-    color: #777;
-}
-.cert-pill {
-    background-color: #7A1F35;
-    color: white;
-    font-weight: bold;
-    font-size: 1.2rem;
-    padding: 0.3rem 1rem;
-    border-radius: 999px;
-}
 .chip-list {
     list-style: none;
     display: flex;
@@ -441,12 +390,6 @@ button[id^="openProject"] {
     padding: 0.4rem 1.1rem;
     border-radius: 999px;
 }
-@media (max-width: 700px) {
-    .cert-body {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-}
 
 /* About header without portrait */
 .about-header {
@@ -455,4 +398,32 @@ button[id^="openProject"] {
 .about-header > div {
     border-left: 6px solid #7A1F35;
     padding-left: 2rem;
+}
+
+/* Certification inside Skills */
+#pfSkills {
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+}
+.cert-row {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin: 1.2rem 0.5rem 0.2rem 0.5rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid #E9D2D8;
+}
+.cert-row .cert-badge {
+    width: 4.2rem;
+    flex-shrink: 0;
+}
+.experience-section .cert-row p {
+    margin: 0;
+}
+#pfAltName {
+    color: #3D0814;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+#pfAltIssuer {
+    font-size: 1.3rem;
 }
